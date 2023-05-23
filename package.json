@@ -1,0 +1,23 @@
+{
+  "name": "pw-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewiz17/pw-scraper.git"
+  },
+  "keywords": [
+    "scraping",
+    "playwright"
+  ],
+  "author": "Eduardo Acosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lewiz17/pw-scraper/issues"
+  },
+  "homepage": "https://github.com/lewiz17/pw-scraper#readme"
+}
