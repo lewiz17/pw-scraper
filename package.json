@@ -15,6 +15,9 @@
     "scraping",
     "playwright"
   ],
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "playwright": "^1.17.0"
   },

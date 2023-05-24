@@ -1,15 +1,7 @@
 const { chromium } = require('playwright');
 
 async function runScraper() {
-    const browser = await chromium.launch({
-        executablePath: process.env.PLAYWRIGHT_BROWSERS_PATH,
-        args: [
-          '--disable-dev-shm-usage',
-          '--disable-setuid-sandbox',
-          '--no-sandbox'
-        ],
-        chromiumSandbox: false
-      });
+    const browser = await chromium.launch();
     const context = await browser.newContext();
     const page = await context.newPage();
   
